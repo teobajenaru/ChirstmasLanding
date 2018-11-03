@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas:400,700');
+
+body{
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.showcase{
+    background: url("Showcase.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 66vh; 
+}
+
+.content{
+    height: 66vh;
+    background: white;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.showbot{
+    background: url("BottomCase.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 66vh; 
+}
+.imp{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#xmas{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 40px;
+    color: brown;
+
+}
+#mail{
+    margin: 1rem;
+    width: 700px;
+    height: 37px;
+    font-size: 32px;
+    border: 5px #1C2742 solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.btn{
+    margin-top: 1rem;
+    width: 200px;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 0px 0px;
+    font-size: 25px;
+    font-family: 'Mountains of Christmas', cursive;
+    background: brown;
+    color: white;
+}
+.btn:hover{
+    box-shadow: 5px 5px 8px #095A64;;
+
+}
